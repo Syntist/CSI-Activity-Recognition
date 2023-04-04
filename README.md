@@ -1,7 +1,6 @@
 # CSI-Activity-Recognition
 Human Activity Recognition using Channel State Information for Wifi Applications. A simple Tensorflow 2.0+ model using Bidirectional LSTM stacked with one Attention Layer.
 
-
 ## What is RF Sensing?
 RF sensing in deep learning refers to the use of wireless signals, such as Wi-Fi or
 Bluetooth, to sense and infer information about objects and their environment. It involves
@@ -9,7 +8,14 @@ analyzing changes in the amplitude, phase, and frequency of the signals to deter
 characteristics such as distance, movement, and material composition. This technique has
 applications in fields such as robotics, healthcare, and security.
 ## Notebook:
-CSI Activity Recognition Notebook (made a test account to upload dataset 13gb)
+[CSI Activity Recognition Notebook](https://colab.research.google.com/drive/1HQWI8hZqCiB0wgQUf7FXjv_0NI0eQHdZ#scrollTo=0RnpSPTSGdyi&uniqifier=4) (made a test account to upload dataset 13gb)
+## Dataset Preparation
+Download the public dataset from [here](https://drive.google.com/file/d/19uH0_z1MBLtmMLh8L4BlNA0w-XAFKipM/view?usp=sharing).
+
+unzip the Dataset.tar.gz by the following command:
+  tar -xzvf Dataset.tar.gz
+
+Inside the dataset, there are 7 different human activities: bed, fall, pickup, run, sitdown, standup and walk.
 ## Model Architecture:
 ![image](https://user-images.githubusercontent.com/24858150/229932184-00cda7eb-c325-4e90-be87-c5fc31746a17.png)
 ## Accuracy: 
